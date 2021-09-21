@@ -52,6 +52,7 @@ body {
  .float-left{
      float: left;
      margin: 1px 15px;
+     height: 400px;
  }
 
  h1{
