@@ -115,6 +115,7 @@ footer {
     justify-content: center;
 }
 
-a {
+a{
     text-decoration: none;
+    color: wheat;
 }
