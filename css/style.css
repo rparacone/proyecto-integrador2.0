@@ -19,8 +19,7 @@ nav a{ /*Texto del header*/
     text-decoration: black;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    flex-direction: row;
-    align-self: center;
+    align-content: center;
 }
 
 header > input{ /*barra de busqueda*/ 
