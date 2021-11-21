@@ -48,7 +48,8 @@ fetch ( url + "/tv/popular?api_key=" + api_key + language)
         document.getElementById("series").innerHTML +=
         `
         <div class = "flexHijo" >
-        <a href="./html/detalleserie.html"><h3>${data.results[i].name}</h3> 
+        <a href="./html/detalleserie.html?id=${data.results[i].id}">
+        <h3>${data.results[i].name}</h3> 
         <img src="https://image.tmdb.org/t/p/original/${data.results[i].poster_path}"
         alt="Accion"/>
         </a>
